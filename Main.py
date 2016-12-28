@@ -64,8 +64,8 @@ def make():
 if __name__=="__main__":
     p1 = multiprocessing.Process(target=go)
     p2 = multiprocessing.Process(target=make)
-    open(¡°data.txt¡±,¡±w¡±)
-    open(¡°data2.txt¡±.¡±w¡±)
+    open('data.txt','w')
+    open('data2.txt','w')
     p1.start()
     p2.start()
     p1.join()
