@@ -196,4 +196,3 @@ class GeneticAlgorithm:
            self.mutate(next_population.get_gene(x))
 
        return next_population
-

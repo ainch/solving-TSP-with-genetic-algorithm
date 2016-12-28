@@ -60,7 +60,6 @@ def make():
     ani = animation.FuncAnimation(fig,animate,interval=100)
     plt.show()
 
-
 if __name__=="__main__":
     p1 = multiprocessing.Process(target=go)
     p2 = multiprocessing.Process(target=make)
